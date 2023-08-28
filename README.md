@@ -1,5 +1,5 @@
 # Subnetting-Algorithm
-Subnetting Algorithm originally created for aid in the OpenConduit software tool used by the CyPres Research Team at Texas A&amp;M University.
+Subnetting Algorithm originally created to aid in the development of the OpenConduit software tool used by the CyPres Research Team at Texas A&M University.
 
 Between subnets in a network, there is always a subtraction gap of at the very least three from the last usable IP address in one subnet to the first usable IP address in the next subnet. This is caused by the broadcast and network addresses in a subnet not being usable. The only exception to this would of course be the complete last usable value (host bits wise) of .254 or where the last usable IPs in a /24 network technically include .254 even if .254 isn't specifically used or listed. This is fixed by appending 257.
 
